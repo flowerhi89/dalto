@@ -102,6 +102,8 @@ a {
 }
 
 
+
+
 /*LOADER SVG*/
 
 .pageload-overlay {
@@ -1033,6 +1035,10 @@ textarea.form-control {
   max-width: 100%;
 }
 
+.map {
+  width:10px;
+}
+
 .btn.submit {
   position: relative;
   font-weight: 500;
@@ -1112,7 +1118,7 @@ address span a {
 }
 
 #google_map {
-  width: 100%;
+  width: 40%;
   height: 400px;
   display: none;
 }
@@ -1144,3 +1150,4 @@ address span a {
 #footer .fa {
   color: #008ED6;
 }
+

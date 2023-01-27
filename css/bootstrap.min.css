@@ -1746,18 +1746,24 @@ pre code {
   .container {
     width: 750px
   }
+
+
 }
+
+
 
 @media (min-width:992px) {
   .container {
     width: 970px
   }
+
 }
 
 @media (min-width:1200px) {
   .container {
     width: 1170px
   }
+
 }
 
 .container-fluid {
@@ -1837,13 +1843,15 @@ pre code {
 .col-xs-9,
 .col-xs-10,
 .col-xs-11,
-.col-xs-12 {
+.col-xs-12{
   float: left
 }
 
 .col-xs-12 {
   width: 100%
 }
+
+
 
 .col-xs-11 {
   width: 91.66666667%
@@ -2065,6 +2073,7 @@ pre code {
   .col-sm-12 {
     width: 100%
   }
+ 
 
   .col-sm-11 {
     width: 91.66666667%
@@ -2280,13 +2289,15 @@ pre code {
   .col-md-9,
   .col-md-10,
   .col-md-11,
-  .col-md-12 {
+  .col-md-12{
     float: left
   }
 
   .col-md-12 {
     width: 100%
   }
+
+ 
 
   .col-md-11 {
     width: 91.66666667%
@@ -2502,8 +2513,14 @@ pre code {
   .col-lg-9,
   .col-lg-10,
   .col-lg-11,
-  .col-lg-12 {
+  .col-lg-12{
     float: left
+  }
+
+
+
+  .map {
+    width: 100%;
   }
 
   .col-lg-12 {
@@ -2731,6 +2748,7 @@ th {
   max-width: 100%;
   margin-bottom: 20px
 }
+
 
 .table>thead>tr>th,
 .table>tbody>tr>th,
@@ -4804,6 +4822,10 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     float: left
   }
 }
+
+
+
+
 
 .navbar-collapse {
   padding-right: 15px;
@@ -7597,7 +7619,7 @@ button.close {
 }
 
 @media (min-width:768px) and (max-width:991px) {
-  .visible-sm-block {
+  .visible-sm-block  {
     display: block !important
   }
 }
