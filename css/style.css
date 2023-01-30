@@ -99,9 +99,31 @@ a {
     display:table-cell;
     vertical-align:top;
   }
+
+  
 }
 
+button {
+  background:none;
+  border:3px solid #fff;
+  color:white;
+  padding:15px 20px;
+  border-radius:20px;
+  margin-top:30px;
+  outline:none;
+  cursor:pointer;
+  transition:all .5s;
+  font-weight: bold;
+}
 
+button:hover{
+  /*마찬가지로 워치 비디오를 갖다댈때 색이 변하게 하기 위해서 호버를 적어준다*/
+  color:#000;
+}
+button a{
+  text-decoration:none;
+  color:white;
+}
 
 
 /*LOADER SVG*/
@@ -683,6 +705,8 @@ span.quot-name:before {
 .container.experties {
   padding-top: 30px;
 }
+
+
 
 .skill {
   width:95%;
