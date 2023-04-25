@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dalto7777.com/sitemap.txt
